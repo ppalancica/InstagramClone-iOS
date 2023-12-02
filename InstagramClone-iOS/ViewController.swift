@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  InstagramClone-iOS
 //
-//  Created by M1 Pro on 02.12.2023.
+//  Created by Pavel Palancica on 02.12.2023.
 //
 
 import UIKit
@@ -13,7 +13,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-
