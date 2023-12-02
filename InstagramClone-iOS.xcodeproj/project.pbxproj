@@ -13,6 +13,7 @@
 		6FBFBB012B1BD9320057E12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBFBAFF2B1BD9320057E12D /* Main.storyboard */; };
 		6FBFBB032B1BD9340057E12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBFBB022B1BD9340057E12D /* Assets.xcassets */; };
 		6FBFBB062B1BD9340057E12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBFBB042B1BD9340057E12D /* LaunchScreen.storyboard */; };
+		6FBFBB102B1BDB8D0057E12D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBFBB0F2B1BDB8D0057E12D /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6FBFBB022B1BD9340057E12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FBFBB052B1BD9340057E12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FBFBB072B1BD9340057E12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBFBB0F2B1BDB8D0057E12D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,35 @@
 				6FBFBB072B1BD9340057E12D /* Info.plist */,
 				6FBFBB042B1BD9340057E12D /* LaunchScreen.storyboard */,
 				6FBFBAFF2B1BD9320057E12D /* Main.storyboard */,
-				6FBFBAFD2B1BD9320057E12D /* RootViewController.swift */,
 				6FBFBAFB2B1BD9320057E12D /* SceneDelegate.swift */,
+				6FBFBB112B1BDBAC0057E12D /* Screens */,
 			);
 			path = "InstagramClone-iOS";
+			sourceTree = "<group>";
+		};
+		6FBFBB0D2B1BDB5E0057E12D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6FBFBAFD2B1BD9320057E12D /* RootViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		6FBFBB0E2B1BDB630057E12D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				6FBFBB0F2B1BDB8D0057E12D /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		6FBFBB112B1BDBAC0057E12D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6FBFBB0E2B1BDB630057E12D /* Feed */,
+				6FBFBB0D2B1BDB5E0057E12D /* Root */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +167,7 @@
 			files = (
 				6FBFBAFE2B1BD9320057E12D /* RootViewController.swift in Sources */,
 				6FBFBAFA2B1BD9320057E12D /* AppDelegate.swift in Sources */,
+				6FBFBB102B1BDB8D0057E12D /* FeedViewController.swift in Sources */,
 				6FBFBAFC2B1BD9320057E12D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

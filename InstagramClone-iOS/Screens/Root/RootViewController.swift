@@ -14,4 +14,11 @@ class RootViewController: UIViewController {
         
         view.backgroundColor = .lightGray
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let feedVC = FeedViewController()
+        navigationController?.pushViewController(feedVC, animated: true)
+    }
 }
